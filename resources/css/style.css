@@ -57,10 +57,6 @@ html{
 }
 .newarrival .body{
   font-size: 2rem;
-  padding-bottom: 0.25rem;
-}
-.newarrival .body2{
-  font-size: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -133,7 +129,7 @@ html{
 
 @media only screen and (max-width: 1024px){
   .subsection{
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
   }
   .subsection3{
@@ -151,5 +147,54 @@ html{
   .glasses{
     display: none;
   }
+}
 
+@media only screen and (max-width: 470px){
+  .subsection{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .section2{
+    height: 15rem;
+  }
+  .newarrival{
+    position: relative;
+    top: 10rem;
+    width: 100%;
+  }
+  .newarrival .headline{
+    padding-top: 1rem;
+    font-size: 0.77rem;
+  }
+  .newarrival p{
+    padding-left: 2rem;
+  }
+  .newarrival .body{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+  .product{
+    width: 90%;
+  }
+  .watch, .glasses{
+    display: none;
+  }
+  .gallery{
+    justify-content: center;
+  }
+
+  .whereabouts{
+    display: block;
+  }
+  .about{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about2{
+    padding-top: 0.5rem;
+  }
+  .footer{
+    margin: 0 auto;
+    justify-content: center;
+  }
 }
